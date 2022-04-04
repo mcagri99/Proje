@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    border-radius: 15px;
+}
+
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+.giris-form{
+    padding: 35px;
+}
+.title{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+}
+.input-field{
+    
+    position: relative;
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+}
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    font-size: 15px;
+}
+.input-field input:is(:focus, :valid){
+    border-bottom-color: rgb(58, 58, 213);
+}
+.input-field i{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 20px;
+}
+.input-field input:is(:focus, :valid) ~ i{
+    color: rgb(58, 58, 213);
+}
+.input-field i.key{
+    left: 0;
+}
+.input-field i.eye{
+    right: 0;
+}
+.checkbox-text{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.checkbox-content{
+    display: flex;
+    align-items: center;
+
+}
+.checkbox-content input{
+   
+    margin-right: 4px;
+}
+.checkbox-text a{
+    text-decoration: none;
+}
+.checkbox-text a:hover{
+    text-decoration: underline;
+}
+.text{
+    font-size: 14px;
+    color: black;
+}
