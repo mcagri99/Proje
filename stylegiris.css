@@ -94,3 +94,16 @@ font-size: 20px;
     font-size: 14px;
     color: black;
 }
+.button{
+    margin-top: 30px;
+}
+.button input{
+    border: none;
+    color: rgb(255, 252, 252);
+    background:linear-gradient(120deg,#2980b9, #8e44ad);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
